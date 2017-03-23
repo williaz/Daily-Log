@@ -30,7 +30,8 @@ Without CORS it is not possible to add X-Requested-With to a cross domain XHR re
 
 When you access localhost, your /etc/hosts file will tell your computer not to look any further and redirects you to your own computer. When you access the local IP adress, your computer will ask the router to fetch the data, and your router will then point back to your computer.
 
-
+- [x] JS new line
+\<br> VS \n
 
 
 
