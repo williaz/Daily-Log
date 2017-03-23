@@ -2,6 +2,7 @@
 Log Daily
 
 - [x] [Error]No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK
+
 1. window->preferences, java->Installed JREs, add JDK
 2. Installed JREs, Execute Environment, check JDK
 3. Maven->update project
@@ -24,6 +25,10 @@ Content-Type
 any others cause a "pre-flight" request to be issued in CORS supported browsers. -> Server can check
 
 Without CORS it is not possible to add X-Requested-With to a cross domain XHR request.
+
+- [ ] localhost VS real ip
+
+When you access localhost, your /etc/hosts file will tell your computer not to look any further and redirects you to your own computer. When you access the local IP adress, your computer will ask the router to fetch the data, and your router will then point back to your computer.
 
 
 
