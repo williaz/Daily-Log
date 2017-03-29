@@ -33,6 +33,16 @@ When you access localhost, your /etc/hosts file will tell your computer not to l
 - [x] JS new line
 \<br> VS \n
 
+- [x] specify the order of execution of test methods. JUnit 4.11
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+
+- [x] [Aggregating tests in suites](https://github.com/junit-team/junit4/wiki/aggregating-tests-in-suites)
+@RunWith(Suite.class)
+@Suite.SuiteClasses({..class, ..})
+
+
+
+
 
 
 
