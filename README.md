@@ -9,7 +9,7 @@ Log Daily
 
 ## [Cross-domain requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 
-XMLHttpRequest (XHR) is an API in the form of an object whose methods transfer data between a web browser and a web server. The object is provided by the browser's JavaScript environment. Particularly, retrieval of data from XHR for the purpose of continually modifying a loaded web page is the underlying concept of Ajax design. 
+- XMLHttpRequest (XHR) is an API in the form of an object whose methods transfer data between a web browser and a web server. The object is provided by the browser's JavaScript environment. Particularly, retrieval of data from XHR for the purpose of continually modifying a loaded web page is the underlying concept of Ajax design. 
 
 - [ ] JSONP: type:script
 - [ ] AJAX: type: xhr
@@ -24,25 +24,31 @@ Last-Event-ID
 Content-Type
 any others cause a "pre-flight" request to be issued in CORS supported browsers. -> Server can check
 
-Without CORS it is not possible to add X-Requested-With to a cross domain XHR request.
+- Without CORS it is not possible to add X-Requested-With to a cross domain XHR request.
 
 - [ ] localhost VS real ip
 
-When you access localhost, your /etc/hosts file will tell your computer not to look any further and redirects you to your own computer. When you access the local IP adress, your computer will ask the router to fetch the data, and your router will then point back to your computer.
+- When you access localhost, your /etc/hosts file will tell your computer not to look any further and redirects you to your own computer. When you access the local IP adress, your computer will ask the router to fetch the data, and your router will then point back to your computer.
 
 - [x] JS new line
-\<br> VS \n
+- \<br> VS \n
 
 - [x] specify the order of execution of test methods. JUnit 4.11
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+- @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
 - [x] [Aggregating tests in suites](https://github.com/junit-team/junit4/wiki/aggregating-tests-in-suites)
 
-@RunWith(Suite.class)
-@Suite.SuiteClasses({..class, ..})
+- @RunWith(Suite.class)
+- @Suite.SuiteClasses({..class, ..})
 
+- [x] [deserialize an array of objects in JSON](http://stackoverflow.com/questions/6349421/how-to-use-jackson-to-deserialise-an-array-of-objects)
+```java
+import com.fasterxml.jackson.databind.ObjectMapper;
 
+ObjectMapper mapper = new ObjectMapper();
+MyClass[] myObjects = mapper.readValue(json, MyClass[].class);
+```
 
 
 
