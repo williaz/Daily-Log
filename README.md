@@ -52,6 +52,8 @@ MyClass[] myObjects = mapper.readValue(json, MyClass[].class);
 - [x] too deep nesting of component structure causes cellediting doesn't work properly -> override?
 - forms, trees, tab panels and grids all extend from Panel,
 
+- [x] Uncaught Error: [Ext.createByAlias] Unrecognized alias: plugin.ux-progressbarpager
+- change the "requires" config to class level
 
 
 
