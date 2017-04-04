@@ -56,7 +56,11 @@ MyClass[] myObjects = mapper.readValue(json, MyClass[].class);
 - change the "requires" config to class level
 
 - [x] render icon in column
-- as renderer returns HTML string, return '<i class="fa fa-compass"></i>'; may need escape \"
+- as renderer returns HTML string, may need escape \": 
+```javascript
+return '<i class="fa fa-compass"></i>';
+```
+
 
 
 
