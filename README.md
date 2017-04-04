@@ -55,6 +55,8 @@ MyClass[] myObjects = mapper.readValue(json, MyClass[].class);
 - [x] Uncaught Error: [Ext.createByAlias] Unrecognized alias: plugin.ux-progressbarpager
 - change the "requires" config to class level
 
+- [x] render icon in column
+- as renderer returns HTML string, return '<i class="fa fa-compass"></i>'; may need escape \"
 
 
 
