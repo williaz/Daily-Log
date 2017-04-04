@@ -49,7 +49,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 ObjectMapper mapper = new ObjectMapper();
 MyClass[] myObjects = mapper.readValue(json, MyClass[].class);
 ```
-
+- [x] too deep nesting of component structure causes cellediting doesn't work properly -> override?
+- forms, trees, tab panels and grids all extend from Panel,
 
 
 
