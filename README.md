@@ -64,6 +64,10 @@ return '<i class="fa fa-compass"></i>';
 ```sql
 SELECT * FROM v$version; -- DB component info
 ```
+- [x] check DB size
+```sql
+SELECT sum(bytes)/1024/1024/1024 size_gb FROM SYS.DBA_DATA_FILES;
+```
 
 
 
