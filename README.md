@@ -60,7 +60,10 @@ MyClass[] myObjects = mapper.readValue(json, MyClass[].class);
 ```javascript
 return '<i class="fa fa-compass"></i>';
 ```
-
+- [x] check oracle DB version
+```sql
+SELECT * FROM v$version; -- DB component info
+```
 
 
 
