@@ -68,6 +68,46 @@ SELECT * FROM v$version; -- DB component info
 ```sql
 SELECT sum(bytes)/1024/1024/1024 size_gb FROM SYS.DBA_DATA_FILES;
 ```
+- [x] loop Map in JS
+- for of (not support)
+```javascript
+//#1. for of, if support
+var myMap = new Map();
+myMap.set('0', 'foo');
+myMap.set(1, 'bar');
+myMap.set({}, 'baz');
 
+for(var [key, value] of myMap) {
+    console.log("key: " + key + " value: " + value); 
+}
+
+//#2. using entries()
+var myMap = new Map();
+myMap.set('0', 'foo');
+myMap.set(1, 'bar');
+myMap.set({}, 'baz');
+
+var mapIter = myMap.entries();
+var temp = mapIter.next();
+
+while (temp.value != null) {
+    console.log("key: " + temp.value[0] + " value: " + temp.value[1]); 
+    temp = mapIter.next();
+}
+
+//#3. keys()
+var myMap = new Map();
+myMap.set('0', 'foo');
+myMap.set(1, 'bar');
+myMap.set({}, 'baz');
+
+var mapIter = myMap.keys();
+var temp = mapIter.next();
+
+while (temp.value != null) {
+    console.log("key: " + temp.value + " value: " + myMap.get(temp.value)); 
+    temp = mapIter.next();
+}
+```
 
 
