@@ -1,5 +1,5 @@
 # Daily-Log
-Log Daily
+*Log Daily*
 
 - [x] [Error]No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK
 
@@ -109,5 +109,17 @@ while (temp.value != null) {
     temp = mapIter.next();
 }
 ```
-
-
+- [x] ExtJs6 Layout helper
+```javascript
+    border: 2,
+    style: {
+       borderColor: 'black',
+       borderStyle: 'solid'
+    },
+```
+- [x] ExtJs6 Store helper
+```javascript
+    store.each(function (record) {
+        console.log(record.data);
+    });
+```
