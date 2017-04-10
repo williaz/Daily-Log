@@ -123,3 +123,52 @@ while (temp.value != null) {
         console.log(record.data);
     });
 ```
+
+## [Analyze Data with Graphs](http://blog.plot.ly/post/118355223592/how-to-analyze-data-eight-useful-ways-you-can)
+### 1. Bar Chart
+- Bar charts compare values between discrete categories(countable)
+- If the data has more than one value per category, a stacked or grouped bar chart lets you see individual values and compare across categories.
+- Grouped bar for clear individual values; Stacked bar for comparing the sum of each group
+
+### 2. Line Chart
+- x-axis display continuous data
+- emphaisze the overall trend or pattern of the data
+- break down into certain group
+- Line charts excel over bar when the changes are more subtle or vary a lot over time.
+
+### 3. Area Chart
+- an effective way of drawing attention to the magnitude of difference between traces, or the cumulative value over a period of time. 
+- However, it can be confusing if there are many overlapping traces. 
+- A stacked area graph adds each trace on top of the last one, such that the areas will never overlap. 
+
+### 4. Scatter Plot
+- show the relationship between two variables.
+- x-axis: independent; y: dependent
+- the line of best fit, R^2 [0, 1] measuress how closely the line fits the data. 1 for perfect correlation
+
+### 5. Bubble Chart
+- A bubble chart is a scatter plot that includes a third variable. This third variable is represented as the size of the data point, creating the bubble.
+
+### 6. Histogram
+- It is visually similar to a bar chart, but with a histogram the bars touch to emphasize that the ranges are continuous data. 
+- A histogram really shines when there is either very little or a lot of variation in the data. It will clearly show multimodal or uniform distribution.
+
+### 7. Box plot
+- A box plot indicates distribution by dividing data into quartiles. 
+- A box plot is ideal for comparing the distribution of a series of datasets
+- It is often used to track different trials of an experiment that is run many times.
+
+### 8. Combination Chart
+
+### *[How to select the best Excel charts for data analysis and reporting](https://www.optimizesmart.com/how-to-select-best-excel-charts-for-your-data-analysis-reporting/)*
+
+
+
+
+
+
+
+
+
+
+
