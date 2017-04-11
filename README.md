@@ -165,14 +165,14 @@ while (temp.value != null) {
 - [x] [Multi-fields Filter](http://existdissolve.com/2011/11/extjs-4-filtering-on-multiple-fields/)
 ```javascript
 var searchfilter = new Ext.util.Filter({
-     filterFn: function(item){
+     filterFn: function(record){
          var searchtest,fnmatch,mnmatch,lnmatch;
          var escapere = Ext.String.escapeRegex;        //Escapes the passed string for use in a regular expression.
          searchtest = new RegExp(escapere(text), 'i');  //text as the input, The "i" flag indicates that case should be ignored while attempting a match in a string.
          
-         fnmatch = searchtest.test(item.data.firstname);
-         mnmatch = searchtest.test(item.data.middlename);
-         lnmatch = searchtest.test(item.data.lastname);
+         fnmatch = searchtest.test(record.data.firstname);
+         mnmatch = searchtest.test(record.data.middlename);
+         lnmatch = searchtest.test(record.data.lastname);
          // if any of the fields matched, return true, which will include  record in filtered set
          if(fnmatch || mnmatch || lnmatch) return true;
          // otherwise, return false, which will exclude record from filtered set
