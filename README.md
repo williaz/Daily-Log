@@ -182,7 +182,17 @@ var searchfilter = new Ext.util.Filter({
 ```
 - [ ] [CSS Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 
-
+- [x] deploy WAR on Tomcat
+```bash
+$ bash
+$ cd app/tomcat/bin
+(servers/tomcat/bin)$ ./shutdown.sh
+(servers/tomcat/bin)$ cd ../webapps
+(servers/tomcat/webapps)$ rm -rf app(folder)
+(servers/tomcat/webapps)$ mv /fd/*.war .
+(servers/tomcat/webapps)$ cd ../bin
+(servers/tomcat/bin)$ ./startup.sh
+```
 
 
 
