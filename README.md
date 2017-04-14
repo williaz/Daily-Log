@@ -193,9 +193,10 @@ $ cd app/tomcat/bin
 (servers/tomcat/webapps)$ cd ../bin
 (servers/tomcat/bin)$ ./startup.sh
 ```
-
-
-
+- [x] SVN tag
+- A tag is just a “snapshot” like any repo revision after each commit.
+- tag VS branch: tag-a snapshot for certain time, no continuous commit; branch get committing
+- ```Team -> Branch/Tag...```
 
 
 
