@@ -198,6 +198,10 @@ $ cd app/tomcat/bin
 - tag VS branch: tag-a snapshot for certain time, no continuous commit; branch get committing
 - ```Team -> Branch/Tag...```
 
-
-
+- [ ] Extjs 6, form.submit(), backend server enabled CORS, still get below response from failure calback, even though server sent back a success response
+```json
+{success:false,message:"Blocked a frame with origin "http://localhost:8080" from accessing a cross-origin frame."}
+```
+- It seems ExtJs uses different iframes, and brower throw the CO errer. 
+- Possible solution: document.domain = document.domain;(not sure)
 
