@@ -123,6 +123,17 @@ while (temp.value != null) {
         console.log(record.data);
     });
 ```
+- [x] JS object prop inspector
+```js
+  //var obj = 
+  var result = '';
+  for (var i in obj) {   
+    if (obj.hasOwnProperty(i)) {
+      result += 'obj.' + i + ' = ' + obj[i] + '\n';
+    }
+  }
+  console.log('Obj props:\n' + result);
+```
 
 ## [Analyze Data with Graphs](http://blog.plot.ly/post/118355223592/how-to-analyze-data-eight-useful-ways-you-can)
 ### 1. Bar Chart
