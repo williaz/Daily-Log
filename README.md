@@ -135,6 +135,17 @@ while (temp.value != null) {
   console.log('Obj props:\n' + result);
 ```
 
+- [x] JS check type to avoid === doesn't work
+```js
+typeof 37 === 'number';
+typeof NaN === 'number'; 
+typeof '' === 'string';
+typeof false === 'boolean';
+typeof [1, 2, 4] === 'object'; //use Array.isArray
+typeof undefined === 'undefined';
+typeof null === 'object';
+```
+
 ## [Analyze Data with Graphs](http://blog.plot.ly/post/118355223592/how-to-analyze-data-eight-useful-ways-you-can)
 ### 1. Bar Chart
 - Bar charts compare values between discrete categories(countable)
