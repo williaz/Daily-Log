@@ -227,3 +227,11 @@ $ cd app/tomcat/bin
 - It seems ExtJs uses different iframes, and brower throw the CO errer. 
 - Possible solution: document.domain = document.domain;(not sure)
 
+- [x][oracle- difference bw " and '](https://community.oracle.com/thread/978489)
+- do not use "" in DB
+- Single-quotes are used to enclose string literals, DATE literals.
+- Double-quotes are used to enclose identifiers (like table and column names) . They are optional (and therefore almost never used) when the name conforms to certain rules for names (starts with a letter, no spaces or special symbols, no lower-case letters, ...).
+
+
+
+
