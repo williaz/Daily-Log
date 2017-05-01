@@ -232,6 +232,8 @@ $ cd app/tomcat/bin
 - Single-quotes are used to enclose string literals, DATE literals.
 - Double-quotes are used to enclose identifiers (like table and column names) . They are optional (and therefore almost never used) when the name conforms to certain rules for names (starts with a letter, no spaces or special symbols, no lower-case letters, ...).
 
-
+- [x] [ORACLE - SEQUENCE gaps](https://asktom.oracle.com/pls/apex/f?p=100:11:0::::P11_QUESTION_ID:369390500346406705)
+- because of cache
+- SEQUENCE is for generating unique number only, gaps are normal and fine
 
 
