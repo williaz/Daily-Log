@@ -236,4 +236,9 @@ $ cd app/tomcat/bin
 - because of cache
 - SEQUENCE is for generating unique number only, gaps are normal and fine
 
+- [x] Linux - Kill the process
+```bash
+ss -ltnp | grep [port]
+kill [PID]
+```
 
