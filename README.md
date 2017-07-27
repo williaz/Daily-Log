@@ -241,4 +241,6 @@ $ cd app/tomcat/bin
 ss -ltnp | grep [port]
 kill [PID]
 ```
-
+- [x] Spring Boot - [add application level endpoint](https://stackoverflow.com/questions/28006501/how-to-specify-prefix-for-all-controllers-in-spring-boot)
+- 1. ServletRegistrationBean 
+- 2. set server.contextPath in application.properties
