@@ -244,3 +244,13 @@ kill [PID]
 - [x] Spring Boot - [add application level endpoint](https://stackoverflow.com/questions/28006501/how-to-specify-prefix-for-all-controllers-in-spring-boot)
 - 1. ServletRegistrationBean 
 - 2. set server.contextPath in application.properties
+
+- [x] [Compiling Vs Transpiling](https://www.stevefenton.co.uk/2012/11/compiling-vs-transpiling/)
+- Compiling: transforming into different level abstraction lang; Transpiling: similar level
+
+
+
+
+
+
+
