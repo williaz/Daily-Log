@@ -248,7 +248,8 @@ kill [PID]
 - [x] [Compiling Vs Transpiling](https://www.stevefenton.co.uk/2012/11/compiling-vs-transpiling/)
 - Compiling: transforming into different level abstraction lang; Transpiling: similar level
 
-
+- [x] log handshake, Oauth
+- ``` -Djavax.net.debug=ssl ``` in VM argument
 
 
 
