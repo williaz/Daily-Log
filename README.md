@@ -251,7 +251,14 @@ kill [PID]
 - [x] log handshake, Oauth
 - ``` -Djavax.net.debug=ssl ``` in VM argument
 
-
+- [x] JS - Sort Array
+- The default sort order is according to string Unicode code points.
+```js
+var numbers = [4, 2, 5, 1, 3];
+numbers.sort(function(a, b) {
+  return a - b;
+});
+```
 
 
 
