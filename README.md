@@ -260,5 +260,9 @@ numbers.sort(function(a, b) {
 });
 ```
 
+- [x] Spring boot - [Multipart file max size](https://stackoverflow.com/questions/37807460/multipart-exception-maxpostsize-error-in-spring-boot)
+- multipart.maxFileSize: 500MB
+- multipart.maxRequestSize: 500MB
+
 
 
