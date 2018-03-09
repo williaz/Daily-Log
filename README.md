@@ -264,5 +264,6 @@ numbers.sort(function(a, b) {
 - multipart.maxFileSize: 500MB
 - multipart.maxRequestSize: 500MB
 
-
+- [x] Eclipse - [Configure Proxy](https://www.mkyong.com/web-development/how-to-configure-proxy-settings-in-eclipse/)
+- Window –> Preferences -> Network Connections -> Manual -> Edit
 
