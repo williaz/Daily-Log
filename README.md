@@ -267,3 +267,14 @@ numbers.sort(function(a, b) {
 - [x] Eclipse - [Configure Proxy](https://www.mkyong.com/web-development/how-to-configure-proxy-settings-in-eclipse/)
 - Window –> Preferences -> Network Connections -> Manual -> Edit
 
+- [x] Eclipse - [set JAVA for open](https://stackoverflow.com/questions/35881210/setting-the-correct-path-for-eclipse)
+```
+-vm
+C:\Java\JDK\1.8\bin\javaw.exe
+//before
+--launcher.appendVmargs
+-vmargs
+```
+
+
+
