@@ -285,4 +285,21 @@ To create or update a symlink:
 ln -sf /path/to/file /path/to/symlink
 ```
 
+- [x] Bash -[resize window](https://unix.stackexchange.com/questions/61584/how-to-solve-the-issue-that-a-terminal-screen-is-messed-up-usually-after-a-res)
+```
+If you are using bash, check if "checkwinsize" option is activated in your session using
+
+shopt | grep checkwinsize
+If you don't get
+
+checkwinsize    on
+then activate it with
+
+shopt -s checkwinsize
+```
+
+
+
+
+
 
