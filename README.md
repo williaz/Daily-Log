@@ -298,6 +298,10 @@ then activate it with
 shopt -s checkwinsize
 ```
 
+- [x] bash - [print last char in file](https://superuser.com/questions/252692/how-to-print-last-character-of-a-file)
+```
+tail -c 2 file
+```
 
 
 
