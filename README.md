@@ -303,7 +303,11 @@ shopt -s checkwinsize
 tail -c 2 file
 ```
 
-
+- [x] Bash - [Compress/Extract](https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/) 
+```
+tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
+tar -xzvf archive.tar.gz
+```
 
 
 
