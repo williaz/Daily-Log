@@ -309,5 +309,13 @@ tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
 tar -xzvf archive.tar.gz
 ```
 
+- [x] Java [memory](https://stackoverflow.com/questions/14763079/what-are-the-xms-and-xmx-parameters-when-starting-jvms)
+- The flag Xmx specifies the maximum memory allocation pool for a Java virtual machine (JVM), while  Xms specifies the initial memory allocation pool.
+```
+-Xmx1024k
+-Xmx512m
+-Xmx8g
+```
+- Tomcat, bin/catalina.sh
 
 
