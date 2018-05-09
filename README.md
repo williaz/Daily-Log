@@ -318,4 +318,33 @@ tar -xzvf archive.tar.gz
 ```
 - Tomcat, bin/catalina.sh
 
+- [x] Bash [split a large text file](https://stackoverflow.com/questions/2016894/how-to-split-a-large-text-file-into-smaller-files-with-equal-number-of-lines)
+```
+1. By line
+split -l 200000 filename
+2. By size
+split -C 20m --numeric-suffixes input_filename output_prefix
+```
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
