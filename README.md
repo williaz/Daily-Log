@@ -325,7 +325,13 @@ split -l 200000 filename
 2. By size
 split -C 20m --numeric-suffixes input_filename output_prefix
 ```
- 
+- [x] https web can't access iframe with http url
+- httpd for https proxy
+```bash
+# .conf 
+ProxyPass /path http://192.168.0.101/path
+ProxyPassReverse /path http://192.168.0.101/path
+```
 
 
 
