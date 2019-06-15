@@ -332,7 +332,10 @@ split -C 20m --numeric-suffixes input_filename output_prefix
 ProxyPass /path http://192.168.0.101/path
 ProxyPassReverse /path http://192.168.0.101/path
 ```
-
+- [x] Load Balancer, Source IP
+- Persistence Method to stick with session
+- take the source and destination IP address of the client and server to generate a unique hash key
+- use the key to allocate the client to a particular server to ensure it is directed to the same server that it was using previously.
 
 
 
