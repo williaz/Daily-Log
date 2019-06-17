@@ -337,6 +337,15 @@ ProxyPassReverse /path http://192.168.0.101/path
 - take the source and destination IP address of the client and server to generate a unique hash key
 - use the key to allocate the client to a particular server to ensure it is directed to the same server that it was using previously.
 
+- [x] Spring - cannot find the declaration of element 'beans'
+- in config XML: update to schemaLocation to classpath from http
+```xml
+xsi:schemaLocation=
+"http://www.springframework.org/schema/beans 
+             classpath:org/springframework/beans/factory/xml/spring-beans-4.3.xsd
+http://www.springframework.org/schema/context 
+             classpath:org/springframework/beans/factory/xml/spring-context-4.3.xsd"
+```
 
 
 
