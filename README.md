@@ -347,6 +347,31 @@ http://www.springframework.org/schema/context
              classpath:org/springframework/beans/factory/xml/spring-context-4.3.xsd"
 ```
 
+- [x] Maven - build jar-with-dependencies 
+```xml
+<plugin>
+  <artifactId>maven-assembly-plugin</artifactId>
+  <configuration>
+    <archive>
+      <manifest>
+        <mainClass>fully.qualified.MainClass</mainClass>
+      </manifest>
+    </archive>
+    <descriptorRefs>
+      <descriptorRef>jar-with-dependencies</descriptorRef>
+    </descriptorRefs>
+  </configuration>
+  <executions>
+    <execution>
+      <id>make-assembly</id> <!-- this is used for inheritance merges -->
+      <phase>package</phase> <!-- bind to the packaging phase -->
+      <goals>
+        <goal>single</goal>
+      </goals>
+    </execution>
+  </executions>
+</plugin>
+```
 
 
 
