@@ -377,7 +377,10 @@ http://www.springframework.org/schema/context
 - double quote %22
 - the Apache 2.4 servers responds with 403 Forbidden. It seems they recognize it as attempt of SQL-injection and suppress it immediately.
 
-
+- [x] bash - check system memory
+```bash
+$ cat /proc/meminfo
+```
 
 
 
