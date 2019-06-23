@@ -381,7 +381,12 @@ http://www.springframework.org/schema/context
 ```bash
 $ cat /proc/meminfo
 ```
-
+- [x] Requirement ambiguity - bottom 5%
+- 1. get records from bottom 5% of total values
+    - by which level
+    - souce gathering from bottom adding to 5%, or skipping the top 95%
+- 2. get max record, which level?
+- 3. display order
 
 
 
