@@ -388,6 +388,10 @@ $ cat /proc/meminfo
 - 2. get max record, which level?
 - 3. display order
 
+- [x] Maven, update dependency
+```bash
+mvn clean install -U
+```
 
 
 
