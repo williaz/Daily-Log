@@ -392,7 +392,12 @@ $ cat /proc/meminfo
 ```bash
 mvn clean install -U
 ```
-
+- [x] Bash - sort
+```bash
+# sort by second column
+sort -k2 -n file
+# -n, numerical val
+```
 
 
 
