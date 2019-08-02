@@ -398,7 +398,14 @@ mvn clean install -U
 sort -k2 -n file
 # -n, numerical val
 ```
-
+- [x] Spring: search class by Annotation
+```java
+ClassPathScanningCandidateComponenetProvider scanner = new ClassPathScanningCandidateComponenetProvider(false);  // noe need add @Component by default
+scanner.addIncludeFilter(new AnnotationTypeFilter(javax.persistence.Entity.class));
+for (BeanDefinition bd : scanner.findCandidateComponents("com.app.pacakge.name")) {
+    // print fully quailified class names 
+}
+```
 
 
 
