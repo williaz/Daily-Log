@@ -406,7 +406,10 @@ for (BeanDefinition bd : scanner.findCandidateComponents("com.app.pacakge.name")
     // print fully quailified class names 
 }
 ```
-
+- [x] 502 Bad Gateway
+- Architectue: tomcat behind apache as proxy
+- issue: get 502 for long time consuming file upload
+- fix: increase tomcat connection timeout without proxytimeout change
 
 
 
