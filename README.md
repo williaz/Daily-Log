@@ -411,6 +411,13 @@ for (BeanDefinition bd : scanner.findCandidateComponents("com.app.pacakge.name")
 - issue: get 502 for long time consuming file upload
 - fix: increase tomcat connection timeout without proxytimeout change
 
+- [x] SQL - Delete duplicate records
+- ROWID and GROUP BY
+```sql
+delete from TABLE where condition
+and rowid not in 
+(select max(rowid) from TABLE where same condition group by columns for primary keys)
+```
 
 
 
