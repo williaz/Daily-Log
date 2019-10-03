@@ -418,7 +418,13 @@ delete from TABLE where condition
 and rowid not in 
 (select max(rowid) from TABLE where same condition group by columns for primary keys)
 ```
-
+- [] [SSL cert into keystore](https://better-coding.com/how-to-add-ssl-certificate-into-java-cacerts-file-and-jks-keystore/)
+- download SSL cert from browser
+- cert file format: text, no space, includes header and footer(---BEGIN/END..--)
+```java
+// in java bin
+keytool -importcert -file mycertfile.cert -keystore cacerts.jks
+```
 
 
 
