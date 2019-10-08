@@ -429,7 +429,11 @@ keytool -importcert -file mycertfile.cert -keystore cacerts.jks
 - :set number
 - :set list for $ and ^M(carriage)
 
-
+- [x] Java: String pipeline split
+- | is regular expression char, \ for escape
+```java
+String[] strs = str.split("\\|"); // \ escape itself first
+```
 
 
 
