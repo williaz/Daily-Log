@@ -1,0 +1,5 @@
+- [x] Spring Boot data.sql no loading
+  - add ```spring.jpa.hibernate.ddl-auto=none```, else hibernate drop loaded data
+- [x] JPA entity need a non-arg constructor explicitly
+- [x] H2 console
+  - ```spring.h2.console.enabled=true```
