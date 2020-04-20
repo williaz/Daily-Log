@@ -3,3 +3,8 @@
 - [x] JPA entity need a non-arg constructor explicitly
 - [x] H2 console
   - ```spring.h2.console.enabled=true```
+- [x] Security with Role
+  - default “ROLE” prefix
+  - think of each Role as a coarse-grained GrantedAuthority that is represented as a String and prefixed with “ROLE“. When using a Role directly, such as through an expression like hasRole(“ADMIN”), we are restricting access in a coarse-grained manner.
+- [x] Security mvcMatchers("/user/**")
+- to include subpath
