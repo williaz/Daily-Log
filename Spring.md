@@ -8,3 +8,4 @@
   - think of each Role as a coarse-grained GrantedAuthority that is represented as a String and prefixed with “ROLE“. When using a Role directly, such as through an expression like hasRole(“ADMIN”), we are restricting access in a coarse-grained manner.
 - [x] Security mvcMatchers("/user/**")
 - to include subpath
+- [x] Testing: @WebMvcTest only scan defined controller, have to provide @MockBean field for its dep
