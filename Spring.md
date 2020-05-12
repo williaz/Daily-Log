@@ -9,3 +9,6 @@
 - [x] Security mvcMatchers("/user/**")
 - to include subpath
 - [x] Testing: @WebMvcTest only scan defined controller, have to provide @MockBean field for its dep
+- [x] property class
+  - main: @ConfigurationProperites(prefix = 'app.prop.prefield')
+  - test: @RunWith @EnableConfigurationProperties @TestPropertySource("claspath:application-local.properties")
