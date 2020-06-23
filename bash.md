@@ -30,3 +30,8 @@ sed -n 110p file
 eval ${ssh-agent -s}
 ssh-keygen -t tsa -b ${num} -C "${email}"
 ```
+- [x] kill app process
+```bash
+ps -ef | grep ${appPath} | grep -v grep | awk '{print $2}' | xargs kill -9
+```
+
