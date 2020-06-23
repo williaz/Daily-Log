@@ -34,4 +34,10 @@ ssh-keygen -t tsa -b ${num} -C "${email}"
 ```bash
 ps -ef | grep ${appPath} | grep -v grep | awk '{print $2}' | xargs kill -9
 ```
+- [x] find text in files
+```bash
+grep -r "xyz" * --color
+```
+
+
 
