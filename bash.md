@@ -12,3 +12,21 @@ scp file user@host:/path
 ```bash
 df -h .
 ```
+- [x] zip
+```bash
+tar -zcvf ${dest.file.tar.gz} targ.dr
+tar -zxvf ${file.tar.gz}
+```
+- [x] count line
+```bash
+wc -l file
+```
+- [x] read 110th line
+```bash
+sed -n 110p file
+```
+- [x] add rsa key for bitbucket
+```bash
+eval ${ssh-agent -s}
+ssh-keygen -t tsa -b ${num} -C "${email}"
+```
