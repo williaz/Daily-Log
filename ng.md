@@ -1,0 +1,3 @@
+- [x] input disabled
+- [disabled] = true makes ngForm invalid, use [attr.disabled] instead
+- https://angular.io/guide/template-syntax#attribute-binding
