@@ -435,7 +435,25 @@ keytool -importcert -file mycertfile.cert -keystore cacerts.jks
 String[] strs = str.split("\\|"); // \ escape itself first
 ```
 
-
+- [x] Logback reload configuration
+```
+    @Value("classpath:logback.xml")
+    Resource logbackXml;
+    
+    private void reloadLogConfig() {
+        LoggerContext context = (LoggerContext) LoggerFactory.getILoggerFactory();
+        JoranConfigurator configurator = new JoranConfigurator();
+        configurator.setContext(context);
+        context.reset();
+        try {
+            configurator.doConfigure(logbackXml.getInputStream());
+        } catch (JoranException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+```
 
 
 
