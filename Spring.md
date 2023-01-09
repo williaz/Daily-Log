@@ -12,3 +12,23 @@
 - [x] property class
   - main: @ConfigurationProperites(prefix = 'app.prop.prefield')
   - test: @RunWith @EnableConfigurationProperties @TestPropertySource("claspath:application-local.properties")
+- [x] Spring cloud gateway, log routing
+  - https://cloud.spring.io/spring-cloud-gateway/reference/html/#wiretap
+```yml
+logging:
+  level:
+    reactor:
+      netty: INFO
+    org:
+      springframework:
+        cloud:
+          gateway: TRACE
+spring:
+  cloud:
+    gateway:
+      httpclient:
+        wiretap: true
+      httpserver:
+        wiretap: true
+```
+- [ ] 
